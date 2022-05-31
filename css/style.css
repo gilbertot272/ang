@@ -28,7 +28,12 @@ body {
   }
 
 
+  h3{
+   
+    color: #ffffff;
 
+    
+}
 
 nav{
     display: flex;
