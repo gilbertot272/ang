@@ -54,3 +54,13 @@ function muestraSlides(n){
     barras[indice-1].className += ' active';
 
 }
+
+function registro(){
+alert("Registro exitoso")
+
+window.location.href = 'moto.html';
+
+
+
+}
+

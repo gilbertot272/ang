@@ -45,6 +45,58 @@ nav{
     
     
 }
+/*CSS DE NUESTRO LOGIN*/
+.tarjeta{
+
+    border: 1px solid rgba(5, 93, 255, 0.819) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color : rgb(255, 254, 254) ;
+    text-align:center ;
+   /* margin: 15px 100px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;*/
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+
+.tarjeta .elemento input{
+    width: 40%;
+    padding: 1px 0;
+    border: turquoise;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+    
+
+}
+
+.tarjeta  input[type="submit"]{
+    background-color: rgb(0, 92, 250);
+    color: rgb(251, 251, 251);
+    letter-spacing: 3px;
+    font-size: 17px;
+    text-align: center;
+    margin: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 15px;
+    padding: 10px 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
 
 h1{
     font-size: 30px;
@@ -394,11 +446,5 @@ h1{
 
     
 }
-h1:hover{
-    /*border-radius: 20px;
-        background-color: #920606;
-      
-        color: #ffffff;
-        */
-}
+
 
